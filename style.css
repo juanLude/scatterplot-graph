@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+svg {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  background-color: darkslategrey;
+  
+
+}
+#tooltip{
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  color: rgb(56,58,74);
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.dot:hover{
+  fill: rgb(221,221,221);
+}
+g{
+  color: rgb(221,221,221);
+}
+#legend{
+  text-align: center;
+}
+#title{
+  fill: rgb(221,221,221);
+}
